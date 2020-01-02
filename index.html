@@ -1,69 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta -->
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Title -->
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Try It Free
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Get Started For Free
-
-  Grow Together
-
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
-
-  Your Users
-
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
-
+  <!-- Header -->
+  <header>
+    <div class="bar">
+      <div class="logo">
+        <img src="images/logo.svg" alt="Huddle logo">
+      </div>
+      <div class="menu-btn">
+        <button>Try It Free</button>
+      </div>
+    </div>
+    <!-- Header Call -->
+    <section class="call">
+      <div class="call-info">
+        <h1> Build The Community Your Fans Will Love</h1>
+        <p> Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion. </p>
+        <button>Get Started For Free</button>
+      </div>
+      <div class="call-illustration">
+        <img src="images/illustration-mockups.svg" alt="huddle illustration1">
+      </div>
+    </section>
+  </header>
+  <!-- Cards -->
+  <main class="cards">
+    <div class="card">
+      <div class="card-info">
+        <h2>Grow Together</h2>
+        <p> Generate meaningful discussions with your audience and build a strong, loyal community.
+          Think of the insightful conversations you miss out on with a feedback form. </p>
+      </div>
+      <div class="card-illustration">
+        <img src="images/illustration-grow-together.svg" alt="grow Together illustration">
+      </div>
+    </div>
+    <div style="flex-direction: row-reverse;" class="card">
+      <div class="card-info">
+        <h2> Flowing Conversations</h2>
+        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads
+          have just-in-time loading for a more natural flow.</p>
+      </div>
+      <div class="card-illustration">
+        <img src="images/illustration-flowing-conversation.svg" alt=" Flowing conversation illustration">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-info">
+        <h2>Your Users</h2>
+        <p>It takes no time at all to integrate Huddle with your app's authentication solution.
+          This means, once signed in to your app, your users can start chatting immediately.</p>
+      </div>
+      <div class="card-illustration order">
+        <img src="images/illustration-your-users.svg" alt="Your users illustration">
+      </div>
+    </div>
+    <!-- Heady -->
+    <div class="ready">
+      <h2> Ready To Build Your Community?</h2>
+      <button> Get Started For Free</button>
+    </div>
+    </div>
+  </main>
+  <!-- Footer -->
   <footer>
+    <div class="footer-logo">
+      <img src="images/logo.svg" alt="">
+    </div>
+    <div class="footer-infos">
+      <div class="list-info">
+        <ul>
+          <li><img src="images/icon-location.svg" alt=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua</li>
+          <li><img src="images/icon-phone.svg" alt=""> +1-543-123-4567</li>
+          <li><img src="images/icon-email.svg" alt=""> example@huddle.com</li>
+        </ul>
+        <ul>
+      </div>
+      <div class="list-info list">
+        <li>About Us</li>
+        <li>What We Do</li>
+        <li>FAQ</li>
+        </ul>
+        <ul>
+      </div>
+      <div class="list-info list">
+        <li>Career</li>
+        <li>Blog</li>
+        <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="social-icons">
+        <li><i class="fab fa-facebook-f fa-sm facebook"></i></li>
+        <li><i class="fab fa-twitter fa-sm"></i></li>
+        <li><i class="fab fa-instagram fa-sm"></i></li>
+      </div>
+    </div>
+    <span>&copy; Copyright 2018 Huddle. All rights reserved.</span>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.github.com/reinierdantas" target="_blank">Reinier Dantas</a>.
     </p>
   </footer>
 </body>

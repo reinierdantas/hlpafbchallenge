@@ -1,0 +1,389 @@
+/* Reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+button {
+    display: block;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(128, 141, 153, 0.15);
+    border-radius: 25px;
+    font-weight: 700;
+
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header {
+    width: 100%;
+    padding: 60px;
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-btn button {
+    padding: 15px 55px;
+    margin-top: 5px;
+    background: #fff;
+}
+
+.menu-btn button:hover {
+    background: hsl(322, 100%, 66%);
+    color: #fff;
+}
+/* Header Call */
+.call {
+    display: flex;
+    margin-top: 60px;
+    flex-wrap: wrap;
+
+}
+
+.call-info {
+    flex: 1.8 2 220px;
+    align-self: center;
+    margin-top: -50px;
+    color: hsl(192, 100%, 9%);
+}
+
+.call-info h1 {
+    font-size: 36px;
+    padding-right: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.call-info p {
+    padding: 35px 0;
+}
+
+.call-info button {
+    padding: 15PX 50PX;
+    background: hsl(322, 100%, 66%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.call-info button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.call-illustration {
+    flex: 2.5 2 300px;
+}
+
+.call-illustration img {
+    padding-left: 60px;
+}
+/* Cards */
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px 0 200px 0;
+    background: #FFFEFF;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    background: #fff;
+    margin: 15px 0;
+    border: 1px solidrgba(128, 141, 153, 0.15);
+    box-shadow: 0px 0px 4px 3px rgba(128, 141, 153, 0.1);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.card-info {
+    flex: 1 1 300px;
+    padding: 100px 60px;
+    align-self: center;
+}
+
+.card-info h2 {
+    font-size: 28px;
+    padding-bottom: 20px;
+    color: hsl(192, 100%, 9%);
+}
+
+.card-info p {
+    color: hsl(208, 11%, 55%);
+}
+/* Ready */
+.ready {
+    background: #fff;
+    border: 1px solidrgba(128, 141, 153, 0.15);
+    box-shadow: 0px 0px 4px 3px rgba(128, 141, 153, 0.1);
+    border-radius: 10px;
+    padding: 50px;
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: -100px;
+}
+
+.ready h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.ready button {
+    padding: 15PX 60PX;
+    background: hsl(322, 100%, 66%);
+    color: #fff;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+.ready button:hover {
+    background: hsl(208, 11%, 55%);
+    color: #000;
+}
+
+.card-illustration {
+    flex: 1 1 300px;
+}
+
+.card-illustration img {
+    width: 500px;
+}
+/* Footer */
+footer {
+    background: hsl(192, 100%, 9%);
+    padding: 130px 0px 0px 0px;
+    margin-top: -200px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+footer span {
+    align-self: flex-end;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.footer-logo {
+    filter: brightness(0) invert(1);
+    padding: 60px;
+}
+
+.footer-infos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 60px;
+}
+
+.list-info {
+    flex: 1 1 300px;
+}
+.list-info img{
+    margin-right: 20px;
+}
+
+.list-info li {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.list {
+    padding-left: 50px;
+}
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 200px;
+}
+
+.social-icons i {
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 50%;
+
+}
+
+.facebook {
+    padding: 8px 12px !important;
+}
+
+.social-icons li {
+    margin: 0 5px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    font-size: 11px;
+    color: hsl(322, 100%, 66%);
+}
+/* ************ Media Querie ************ */
+@media(max-width:860px) {
+    header {
+        padding: 60px 30px;
+        background-image: url(../images/bg-hero-mobile.svg);
+    }
+
+    .logo img {
+        width: 100px;
+        height: 25px;
+    }
+
+    .menu-btn button {
+        padding: 7px 25px;
+        margin-top: 0px;
+        font-size: 13px;
+    }
+
+    .menu-btn button:hover {
+        background: hsl(322, 100%, 66%);
+        color: #fff;
+    }
+
+    .call {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .call-info h1 {
+        font-size: 30px;
+        padding-right: 40px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .call-info p {
+        padding: 0px 30px;
+    }
+
+    .call-info button {
+        margin: 0 auto;
+        padding: 10px 50px;
+        font-size: 14px;
+    }
+
+    .call-illustration img {
+        padding: 60px 30px;
+    }
+
+    .cards {
+        padding: 80px 0 200px 0;
+    }
+
+    .card {
+        margin: 15px 40px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .card-info {
+        order: 1;
+    }
+
+    .card-illustration {
+        order: 0;
+    }
+
+    .ready {
+        padding: 40px 20px;
+        max-width: 95%;
+        margin-top: 150px;
+        margin-bottom: -100px;
+    }
+
+    .ready h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .ready button {
+        padding: 15px 50px;
+    }
+
+    .card-illustration img {
+        padding: 30px;
+    }
+
+    footer span {
+        align-self: center;
+        padding-top: 25px;
+        font-size: 14px;
+    }
+
+    .footer-logo {
+        filter: brightness(0) invert(1);
+        padding: 20px;
+    }
+
+    .footer-infos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        padding-top: 0px;
+        padding-left: 20px;
+    }
+
+    .list-info {
+        padding-left: 0;
+        padding-top: 25px;
+    }
+
+    .list-info li {
+        font-size: 16px;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+
+    .list {
+        padding-left: 0px;
+        padding-top: 0;
+        padding-bottom: 25px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        padding: 10px 0;
+    }
+}
