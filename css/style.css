@@ -300,6 +300,7 @@ footer span {
 
     .call-info button {
         margin: 0 auto;
+        margin-top: 20px;
         padding: 10px 50px;
         font-size: 14px;
     }
@@ -317,9 +318,9 @@ footer span {
         padding: 0px;
         text-align: center;
     }
-
     .card-info {
         order: 1;
+        padding: 100px 20px;
     }
 
     .card-illustration {
